@@ -39,11 +39,13 @@ Backend (FastAPI): http://localhost:8000/rewrite
   * You can get your token from: https://huggingface.co/settings/tokens
 
 5. Run the Backend
-* uvicorn backend.app:app --reload --port 8000
+* cd backend
+* uvicorn app:app --reload
 * This will start the FastAPI server with CORS enabled.
 
 6. Run the Frontend
-* streamlit run frontend/app.py
+* cd frontend
+* streamlit run app.py
 * Streamlit UI will open in your browser at: http://localhost:8501
 
 ## 🧠 How It Works
