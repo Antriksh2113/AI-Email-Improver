@@ -15,11 +15,11 @@ Frontend (Streamlit): http://localhost:8501
 Backend (FastAPI): http://localhost:8000/rewrite
 
 ## 🔧 Features
-✅ Rewrite any email in 5 tones: Formal, Polite, Friendly, Concise, Persuasive.
-✅ Hugging Face LLM (Mistral) integration via Featherless API.
-✅ Clean and intuitive UI with Streamlit.
-✅ Configurable via .env file.
-✅ Modular codebase (easy to expand or integrate).
+- * ✅ Rewrite any email in 5 tones: Formal, Polite, Friendly, Concise, Persuasive.
+* ✅ Hugging Face LLM (Mistral) integration via Featherless API.
+-✅ Clean and intuitive UI with Streamlit.
+-✅ Configurable via .env file.
+-✅ Modular codebase (easy to expand or integrate).
 
 ## 🛠️ Setup Instructions
 
