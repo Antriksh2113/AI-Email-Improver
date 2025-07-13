@@ -47,14 +47,14 @@ Backend (FastAPI): http://localhost:8000/rewrite
 * Streamlit UI will open in your browser at: http://localhost:8501
 
 ## 🧠 How It Works
-Under the hood:
-  llm.py: Encapsulates API call logic using requests to Hugging Face
-  EmailRewriter: Builds the prompt → sends it → parses and returns result
-  Streamlit frontend talks to backend using requests.post() to trigger rewriting
+- Under the hood:
+  - llm.py: Encapsulates API call logic using requests to Hugging Face
+  - EmailRewriter: Builds the prompt → sends it → parses and returns result
+  - Streamlit frontend talks to backend using requests.post() to trigger rewriting
 
 ## 🙌 Acknowledgements
-  Hugging Face
-  MistralAI
-  FastAPI
-  Streamlit
+  * Hugging Face
+  * MistralAI
+  * FastAPI
+  * Streamlit
 
