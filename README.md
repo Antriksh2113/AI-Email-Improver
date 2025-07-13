@@ -26,25 +26,25 @@ Backend (FastAPI): http://localhost:8000/rewrite
 1. Clone the Repository
 
 2. Create a Virtual Environment
-  python -m venv venv
-  source venv/bin/activate     # For macOS/Linux
-  venv\Scripts\activate.bat    # For Windows
+  * python -m venv venv
+  * source venv/bin/activate     # For macOS/Linux
+  * venv\Scripts\activate.bat    # For Windows
 
 3. Install Requirements
-   pip install -r requirements.txt
+   * pip install -r requirements.txt
 
 4. Add Hugging Face API Key
-  Create a .env file in the root directory:
-  HF_TOKEN=your_huggingface_api_key_here
-  You can get your token from: https://huggingface.co/settings/tokens
+  * Create a .env file in the root directory:
+  * HF_TOKEN=your_huggingface_api_key_here
+  * You can get your token from: https://huggingface.co/settings/tokens
 
 5. Run the Backend
-uvicorn backend.app:app --reload --port 8000
-This will start the FastAPI server with CORS enabled.
+* uvicorn backend.app:app --reload --port 8000
+* This will start the FastAPI server with CORS enabled.
 
 6. Run the Frontend
-streamlit run frontend/app.py
-Streamlit UI will open in your browser at: http://localhost:8501
+* streamlit run frontend/app.py
+* Streamlit UI will open in your browser at: http://localhost:8501
 
 ## 🧠 How It Works
 Under the hood:
